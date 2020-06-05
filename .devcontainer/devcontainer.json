@@ -11,10 +11,10 @@
   ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/ash",
-    "editor.formatOnSave": true,  
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "postCreateCommand": "yarn install",
+  "postCreateCommand": "npm install",
   "extensions": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
